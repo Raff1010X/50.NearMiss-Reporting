@@ -10,5 +10,5 @@ To login use:
 My git repo: https://github.com/Raff1010X/01.Roadmap
 
 <p align="center">
-<img src="./schema.png" alt="example image" width=80%">
+<img src="./schema.png" alt="example image" width=100%">
 </p>
