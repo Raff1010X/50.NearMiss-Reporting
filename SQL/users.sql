@@ -38,8 +38,7 @@ _is_active boolean := false;
 _role_id integer := CASE
   WHEN ($1::json->>'email') LIKE '%@acme.pl' THEN 2
   ELSE 1
-END CASE
-;
+END;
 _department_id integer := CASE
   WHEN ($1::json->>'department') IS NULL THEN 1
   ELSE (

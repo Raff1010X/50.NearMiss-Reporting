@@ -668,7 +668,7 @@ CREATE OR REPLACE VIEW reports_by_date AS (
     FROM reports r
       LEFT JOIN users u USING (user_id)
       LEFT JOIN departments d ON ((u.department_id = d.department_id))
-    WHERE - - r.date >= date_trunc('month'::text, (now() - '5 mons'::interval))
+    WHERE r.date >= date_trunc('month'::text, (now() - '5 mons'::interval))
       AND (r.date <= now())
     GROUP BY 1,
       2,
