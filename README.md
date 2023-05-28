@@ -4,7 +4,7 @@
 
 Postgres database for [NearMiss-Reporting](https://github.com/Raff1010X/50.NearMiss-WEB) Web App
 
-Demo: https://webdev.cal24.pl/
+Demo: https://zpw.webdev.priv.pl/
 
 To login use: 
 - email: rafal.anonim@acme.pl
@@ -12,6 +12,7 @@ To login use:
 
 My git repo: https://github.com/Raff1010X/01.Roadmap
 
+Database schema:
 <p align="center">
 <img src="./schema.png" alt="example image" width=100%">
 </p>
